@@ -2,6 +2,7 @@ version: '3.5'
 
 services:
   rack:
+    platform: linux/amd64
     build:
       context: .
     depends_on:
@@ -12,6 +13,7 @@ services:
         max-size: "10m"
 
   queue:
+    platform: linux/amd64
     build:
       context: .
     depends_on:

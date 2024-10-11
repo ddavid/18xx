@@ -29,3 +29,4 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: password
       POSTGRES_DB: 18xx_development
+      PGDATA: /home/db/pgdata
